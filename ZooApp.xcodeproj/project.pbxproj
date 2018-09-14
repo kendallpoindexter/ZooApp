@@ -12,6 +12,11 @@
 		EB933DFB214BFD6900E68864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB933DF9214BFD6900E68864 /* Main.storyboard */; };
 		EB933DFD214BFD6A00E68864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB933DFC214BFD6A00E68864 /* Assets.xcassets */; };
 		EB933E00214BFD6A00E68864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB933DFE214BFD6A00E68864 /* LaunchScreen.storyboard */; };
+		EB933E08214BFECB00E68864 /* AnimalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB933E07214BFECB00E68864 /* AnimalClass.swift */; };
+		EB933E0A214C006900E68864 /* BabyAnimalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB933E09214C006900E68864 /* BabyAnimalClass.swift */; };
+		EB933E0C214C129B00E68864 /* PenStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB933E0B214C129B00E68864 /* PenStruct.swift */; };
+		EB933E0E214C13F000E68864 /* BiomeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB933E0D214C13F000E68864 /* BiomeStruct.swift */; };
+		EB933E10214C14B800E68864 /* HabitatStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB933E0F214C14B800E68864 /* HabitatStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		EB933DFC214BFD6A00E68864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB933DFF214BFD6A00E68864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB933E01214BFD6A00E68864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB933E07214BFECB00E68864 /* AnimalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalClass.swift; sourceTree = "<group>"; };
+		EB933E09214C006900E68864 /* BabyAnimalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyAnimalClass.swift; sourceTree = "<group>"; };
+		EB933E0B214C129B00E68864 /* PenStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenStruct.swift; sourceTree = "<group>"; };
+		EB933E0D214C13F000E68864 /* BiomeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomeStruct.swift; sourceTree = "<group>"; };
+		EB933E0F214C14B800E68864 /* HabitatStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitatStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				EB933DF5214BFD6900E68864 /* AppDelegate.swift */,
 				EB933DF7214BFD6900E68864 /* ViewController.swift */,
 				EB933DF9214BFD6900E68864 /* Main.storyboard */,
+				EB933E07214BFECB00E68864 /* AnimalClass.swift */,
+				EB933E09214C006900E68864 /* BabyAnimalClass.swift */,
+				EB933E0B214C129B00E68864 /* PenStruct.swift */,
+				EB933E0D214C13F000E68864 /* BiomeStruct.swift */,
+				EB933E0F214C14B800E68864 /* HabitatStruct.swift */,
 				EB933DFC214BFD6A00E68864 /* Assets.xcassets */,
 				EB933DFE214BFD6A00E68864 /* LaunchScreen.storyboard */,
 				EB933E01214BFD6A00E68864 /* Info.plist */,
@@ -136,7 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB933DF8214BFD6900E68864 /* ViewController.swift in Sources */,
+				EB933E08214BFECB00E68864 /* AnimalClass.swift in Sources */,
+				EB933E0A214C006900E68864 /* BabyAnimalClass.swift in Sources */,
 				EB933DF6214BFD6900E68864 /* AppDelegate.swift in Sources */,
+				EB933E0C214C129B00E68864 /* PenStruct.swift in Sources */,
+				EB933E10214C14B800E68864 /* HabitatStruct.swift in Sources */,
+				EB933E0E214C13F000E68864 /* BiomeStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
