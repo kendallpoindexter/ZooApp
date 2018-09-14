@@ -9,5 +9,6 @@
 import Foundation
 
 struct Pen {
+    let penName: String 
     let animals: [Animal] = []
 }
