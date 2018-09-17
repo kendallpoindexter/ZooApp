@@ -9,6 +9,9 @@
 import UIKit
 
 class AnimalsTableViewController: UITableViewController {
+    
+    //MARK: 
+    var animal: [Animal]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,23 +32,25 @@ class AnimalsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        guard let animal = animal else { return 0 }
+        return animal.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Animal", for: indexPath)
+        guard let animal = animal else { return UITableViewCell() }
+        cell.textLabel?.text = animal[indexPath.row].name
         // Configure the cell...
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
