@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB174C4A214F3AF900F44593 /* AnimalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB174C49214F3AF900F44593 /* AnimalsTableViewController.swift */; };
 		EB933DF6214BFD6900E68864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB933DF5214BFD6900E68864 /* AppDelegate.swift */; };
 		EB933DF8214BFD6900E68864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB933DF7214BFD6900E68864 /* ViewController.swift */; };
 		EB933DFB214BFD6900E68864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB933DF9214BFD6900E68864 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB174C49214F3AF900F44593 /* AnimalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewController.swift; sourceTree = "<group>"; };
 		EB933DF2214BFD6900E68864 /* ZooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB933DF5214BFD6900E68864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB933DF7214BFD6900E68864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB174C4B214F3B3600F44593 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EBF57536214C1F8100FA3301 /* HabitatTableViewController.swift */,
+				EBF57538214C29FC00FA3301 /* PensTableViewController.swift */,
+				EB174C49214F3AF900F44593 /* AnimalsTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EB174C4C214F3B6200F44593 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB933E0D214C13F000E68864 /* BiomeStruct.swift */,
+				EB933E0B214C129B00E68864 /* PenStruct.swift */,
+				EB933E09214C006900E68864 /* BabyAnimalClass.swift */,
+				EB933E07214BFECB00E68864 /* AnimalClass.swift */,
+				EB933E0F214C14B800E68864 /* HabitatStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EB933DE9214BFD6900E68864 = {
 			isa = PBXGroup;
 			children = (
@@ -71,13 +95,8 @@
 				EB933DF5214BFD6900E68864 /* AppDelegate.swift */,
 				EB933DF7214BFD6900E68864 /* ViewController.swift */,
 				EB933DF9214BFD6900E68864 /* Main.storyboard */,
-				EBF57538214C29FC00FA3301 /* PensTableViewController.swift */,
-				EBF57536214C1F8100FA3301 /* HabitatTableViewController.swift */,
-				EB933E0F214C14B800E68864 /* HabitatStruct.swift */,
-				EB933E07214BFECB00E68864 /* AnimalClass.swift */,
-				EB933E09214C006900E68864 /* BabyAnimalClass.swift */,
-				EB933E0B214C129B00E68864 /* PenStruct.swift */,
-				EB933E0D214C13F000E68864 /* BiomeStruct.swift */,
+				EB174C4B214F3B3600F44593 /* Controller */,
+				EB174C4C214F3B6200F44593 /* Model */,
 				EB933DFC214BFD6A00E68864 /* Assets.xcassets */,
 				EB933DFE214BFD6A00E68864 /* LaunchScreen.storyboard */,
 				EB933E01214BFD6A00E68864 /* Info.plist */,
@@ -162,6 +181,7 @@
 				EBF57539214C29FC00FA3301 /* PensTableViewController.swift in Sources */,
 				EB933DF6214BFD6900E68864 /* AppDelegate.swift in Sources */,
 				EB933E0C214C129B00E68864 /* PenStruct.swift in Sources */,
+				EB174C4A214F3AF900F44593 /* AnimalsTableViewController.swift in Sources */,
 				EB933E10214C14B800E68864 /* HabitatStruct.swift in Sources */,
 				EBF57537214C1F8100FA3301 /* HabitatTableViewController.swift in Sources */,
 				EB933E0E214C13F000E68864 /* BiomeStruct.swift in Sources */,

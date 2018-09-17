@@ -107,7 +107,7 @@ class HabitatTableViewController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
-        if segue.identifier == "Pen" {
+        if segue.identifier == "toPenSegue" {
            let penTableViewController = segue.destination as? PensTableViewController
             guard let selectedIndex = selectedIndex else {return}
             penTableViewController?.biome = habitat?.biomes[selectedIndex]
