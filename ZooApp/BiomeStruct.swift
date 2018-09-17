@@ -10,5 +10,5 @@ import Foundation
 
 struct Biome {
     let name: String
-    let pens: [Pen] = []
+    let pens: [Pen] 
 }

@@ -9,6 +9,7 @@
 import Foundation
 
 struct Habitat {
-    var Biomes: [Biome] = [Biome(name: "Tundra"), Biome(name: "Forest"), Biome(name: "Desert")]
+    var biomes: [Biome]
 }
 
+//[Biome(name: "Tundra", pens: [<#[Pen]#>]), Biome(name: "Forest", pens: <#[Pen]#>), Biome(name: "Desert", pens: <#[Pen]#>)]
